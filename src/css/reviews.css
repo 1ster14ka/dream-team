@@ -1,0 +1,27 @@
+.reviews-title{
+    width: 335px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 28px;
+line-height: 1;
+letter-spacing: -0.02em;
+text-align: center;
+}
+.reviews-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: -0.02em;
+text-align: center;
+opacity: 0.4;
+}
+.reviews-img{
+    border-radius: 72;
+}
+.reviews-vic{
+    display: none;
+}
+.reviews-ih{
+    display: none;
+}
