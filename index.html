@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/dream-team/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/dream-team/assets/index-781ded94.css">
+    <link rel="stylesheet" href="/dream-team/assets/index-873335e9.css">
   </head>
   <body>
     <header class="header">
@@ -324,7 +324,49 @@
 </div>
 </section>
 
-      <h2>Rent a yacht</h2>
+      <section class="rent">
+  <div class="container rent-container">
+    <div class="wrapp-rent-img">
+      <img
+        srcset="/dream-team/assets/s6-mob-44a15256.jpg 1x, /dream-team/assets/s6-mob@2x-d57b61f8.jpg 2x"
+        alt="rent yacht"
+        class="rent-img"
+      />
+    </div>
+
+    <form class="rent-form">
+      <p class="rent-text">Rent a yacht now</p>
+      <div class="wrapp-input">
+        <input
+          type="text"
+          class="rent-input"
+          name="user-name"
+          placeholder="Full Name"
+        />
+        <input
+          type="email"
+          class="rent-input"
+          placeholder="Email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        />
+        <input
+          type="tel"
+          class="rent-input"
+          placeholder="Phone number"
+          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+        />
+        <textarea
+          name=""
+          id=""
+          class="rent-comment"
+          placeholder="Comment"
+        ></textarea>
+      </div>
+
+      <button type="submit" class="rent-btn">Send</button>
+    </form>
+  </div>
+</section>
 
       <h2>Reviews</h2>
 
