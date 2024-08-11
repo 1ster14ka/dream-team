@@ -9,26 +9,19 @@
 .about-content { 
     box-sizing: border-box;
     width: 335px;
-    padding: 40px 20px 61px;
+    padding: 40px 20px 335px;
     background-color: #fbfbfb;
     border-radius: 24px;
     margin-top: -35px;
 
 }
 .about-wrap {
-    margin-top: -30px;
+    margin-top: -295px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.about-wrap-img {
-    width: 100%;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)), url(/src/img/img-about-us/s3-desk1440.jpg);
-/* background-repeat: no-repeat;
-background-position: center;
-background-size: cover; */
-margin-right: auto;
-margin-left: auto;
-}
 
 .about-us {
 }
@@ -81,7 +74,7 @@ margin-left: auto;
     }
     .about-content {
         width: 704px;
-        padding: 50px 136px 70px 32px;
+        padding: 50px 136px 244px 32px;
     
     }
 
@@ -102,7 +95,7 @@ line-height: 115%;
 
 }
 .about-wrap {
-
+    margin-top: -194px;
 }
 
 .abaut-list {
@@ -123,7 +116,7 @@ line-height: 115%;
         display: flex;
         width: 1180px;
         padding: 50px;
-        padding-bottom: 120px;
+        padding-bottom: 415px;
        
     
     }
@@ -131,7 +124,9 @@ line-height: 115%;
         max-width: 537px;
         margin-bottom: 50px;
      }
-
+     .about-wrap {
+        margin-top: -315px;
+    }
 
 
     .abaut-list {
@@ -150,8 +145,12 @@ line-height: 115%;
     .about-content { 
         display: flex;
         width: 1340px;
+        padding-bottom: 438px;
        
     
+    }
+    .about-wrap {
+        margin-top: -338px;
     }
     .abaut-list {
 
