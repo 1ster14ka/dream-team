@@ -1,0 +1,174 @@
+.reviews {
+  margin-bottom: 80px;
+}
+
+.reviews-container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.wrapp-rew-text {
+  margin-bottom: 40px;
+}
+.rew-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 25px;
+}
+.rew-subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  opacity: 0.4;
+}
+.rew-item {
+  background-color: #fbfbfb;
+  border-radius: 24px;
+  padding: 32px 8px;
+}
+
+.rew-list .rew-item {
+  display: none;
+}
+
+.rew-list .rew-item:first-child {
+  display: list-item;
+}
+
+.rew-img {
+  margin: 0 auto 24px;
+  border-radius: 72px;
+}
+.rew-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-bottom: 8px;
+}
+.rew-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  max-width: 303px;
+  margin: 0 auto;
+}
+
+.wrapp-rew-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .img-john {
+    content: url('/img/img-reviews/John-desk1440@2x.jpg');
+  }
+  .img-victoria {
+    content: url('/img/img-reviews/Victoria-desk1440@2x.jpg');
+  }
+  .img-ihor {
+    content: url('/img/img-reviews/Ihor-desk1440@2x.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews {
+    margin-bottom: 150px;
+  }
+
+  .reviews-container {
+    padding: 0 32px;
+  }
+
+  .wrapp-rew-text {
+    margin-bottom: 75px;
+  }
+
+  .rew-title {
+    font-size: 48px;
+  }
+
+  .rew-subtitle {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .rew-list .rew-item {
+    display: block;
+  }
+
+  .rew-list .rew-item:last-child {
+    display: none;
+  }
+
+  .rew-list {
+    display: flex;
+    gap: 32px;
+  }
+
+  .rew-item {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .img-john {
+      content: url('/img/img-reviews/John-desk1440@2x.jpg');
+    }
+    .img-victoria {
+      content: url('/img/img-reviews/Victoria-desk1440@2x.jpg');
+    }
+    .img-ihor {
+      content: url('/img/img-reviews/Ihor-desk1440@2x.jpg');
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-container {
+    padding: 0 50px;
+  }
+
+  .rew-list .rew-item:last-child {
+    display: block;
+  }
+
+  .rew-title {
+    max-width: 854px;
+  }
+
+  .rew-subtitle {
+    width: 571px;
+  }
+
+  .rew-list {
+    gap: 26px;
+  }
+
+  .rew-item {
+    flex-basis: calc((100% - 26px) / 3);
+    padding: 32px 28px;
+  }
+
+  .rew-text {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reviews-container {
+    padding: 0 100px;
+  }
+}

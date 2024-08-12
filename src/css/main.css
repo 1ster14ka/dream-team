@@ -28,6 +28,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+.rental-btn:hover,
+.rental-btn:focus {
+  background-color: #fbfbfb;
+}
 
 .title {
   font-weight: 500;
